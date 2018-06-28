@@ -8,5 +8,6 @@ https://wiki.openssl.org/index.php/STACK_API
 
 # TODO
 
+* Document in the README each stack API and how to use the header.
 * Remove unnecesary openssl code (a lot of useless stuff)
 * Now it cant compile if you include the header from two or more sources. Make a real self-sufficient header like miniz: https://github.com/tessel/miniz/blob/master/miniz.c
