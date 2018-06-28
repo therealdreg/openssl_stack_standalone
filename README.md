@@ -6,6 +6,22 @@ The stack library provides a generic way to handle collections of objects in Ope
 
 https://wiki.openssl.org/index.php/STACK_API
 
+# compile & test
+```
+[dreg@fr33project ~/openssl_stack_standalone]# gcc -o example1 example.c
+[dreg@fr33project ~/openssl_stack_standalone]# ./example1
+
+ a: 9 - b: 3.400000
+
+ a: 2 - b: 2.100000
+
+ a: 9 - b: 3.400000
+
+ a: 9 - b: 3.400000
+
+press enter to close.
+```
+
 # TODO
 
 * Document in the README each stack API and how to use the header.
